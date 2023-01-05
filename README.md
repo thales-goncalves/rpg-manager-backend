@@ -32,7 +32,7 @@
 $ yarn install
 ```
 
-## Running the app
+## Running the app - yarn
 
 ```bash
 # development
@@ -43,6 +43,17 @@ $ yarn run start:dev
 
 # production mode
 $ yarn run start:prod
+```
+
+## Running the app - docker
+
+```bash
+# build docker image
+$ docker build -t rpg-manager-backend .
+
+# running docker image
+$ docker run -p 3000:3000 rpg-manager-backend
+
 ```
 
 ## Test
